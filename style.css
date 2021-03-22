@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.repositories {
+    column-count: 3;
+}
+
+.card {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border: 2px solid black;
+    border-radius: 5px;
+    flex-wrap: wrap;
+}
+
+p {
+    font-size: 0.8rem;
+}
+
+time {
+    font-size: 0.6rem;
+}
